@@ -432,9 +432,3 @@ st.warning(
     "dates are not validated for logistics timing, raw shipping lead time "
     "is excluded from route-performance benchmarking."
 )
-
-st.caption(
-    "Raw Order Date and Ship Date are retained for auditability; "
-    "they should not be interpreted as actual transit times without "
-    "a validated correction to the source data."
-)
